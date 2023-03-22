@@ -1,0 +1,98 @@
+a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #18181B;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  color: rgb(240, 240, 255);
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.nav li a:hover {
+  color: gray;
+}
+
+.brand{
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(240, 240, 255);
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 24px;
+}
+
+.navDrop1Content {
+  position: absolute;
+  display: none;
+}
+
+.navDrop1 .navDrop1Content a {
+  color: black;
+  display: block;
+} 
+
+.navDrop1:hover .navDrop1Content {
+  display: block;
+  position: absolute;
+}
+
+.navDrop2Content {
+  position: absolute;
+  display: none;
+}
+
+.navDrop2 .navDrop2Content a {
+  color: black;
+  display: block;
+} 
+
+.navDrop2:hover .navDrop2Content{
+  display: block;
+}
+
+.nav .navSearch {
+  float: right;
+  padding: 7px;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+input[type=text] {
+  width: 200px;
+  color: #AFAFB0;
+  background-color: #3D3D3F;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold; 
+  padding: 5px 20px; 
+  border-radius: 7px 0px 0px 7px;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  background-color: #000000;
+  outline: none;
+}
+
+input[type=submit] {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold; 
+  background-color: #2E2E35;
+  padding: 5px 20px;
+  color: #EEEEF0;
+  border-radius: 0px 7px 7px 0px;
+}

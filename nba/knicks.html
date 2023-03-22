@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="src/css/stylingKnicks.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Quantico:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <img
+      src="src/img/New_York_Knicks_logo.svg.png"
+      alt="the New York Knicks"
+      title="the New York Knicks"
+      width="15%"
+    />
+    <h1>the New York Knicks</h1>
+    <h3>Head coach: Tom Thibodeau</h3>
+    <h4>Starting Five</h4>
+    <table border="1">
+      <thead>
+        <th colspan="2">Jersey # and Name</th>
+        <th>Position</th>
+        <th>Rating</th>
+        <th colspan="2">Minutes - Points</th>
+        <th colspan="3">AST - STL - BLK</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>#11</td>
+          <td>Jalen Brunson</td>
+          <td>PG</td>
+          <td>82</td>
+          <td>35.2</td>
+          <td>23.6</td>
+          <td>6.2</td>
+          <td>0.9</td>
+          <td>0.3</td>
+        </tr>
+        <tr>
+          <td>#6</td>
+          <td>Quentin Grimes</td>
+          <td>SG</td>
+          <td>73</td>
+          <td>29.7</td>
+          <td>9.9</td>
+          <td>0.6</td>
+          <td>0.4</td>
+          <td>1.1</td>
+        </tr>
+        <tr>
+          <td>#9</td>
+          <td>RJ Barrett</td>
+          <td>SF</td>
+          <td>85</td>
+          <td>34.1</td>
+          <td>19.5</td>
+          <td>2.8</td>
+          <td>0.5</td>
+          <td>0.2</td>
+        </tr>
+        <tr>
+          <td>#30</td>
+          <td>Julius Randle</td>
+          <td>PF</td>
+          <td>85</td>
+          <td>34.1</td>
+          <td>19.5</td>
+          <td>2.8</td>
+          <td>0.5</td>
+          <td>0.2</td>
+        </tr>
+        <tr>
+          <td>#23</td>
+          <td>Mitchell Robinson</td>
+          <td>C</td>
+          <td>80</td>
+          <td>27</td>
+          <td>7.5</td>
+          <td>0.9</td>
+          <td>0.9</td>
+          <td>1.8</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h4>Survey</h4>
+    <form>
+      Who is your favorite in the first five of this team?
+      <br />
+      <select name="fave">
+        <option 
+          value="" 
+          disabled 
+          selected 
+          hidden
+        >
+          Click to select
+        </option>
+        <option value="1">Jalen Brunson</option>
+        <option value="2">Quentin Grimes</option>
+        <option value="3">RJ Barrett</option>
+        <option value="4">Julius Randle</option>
+        <option value="5">Mitchell Robinson</option>
+      </select>
+      <br />
+      <br />
+      Do you think this team will be champion this year?
+      <label>Yes</label>
+      <input
+        type="radio"
+        name="champion"
+        value="y"
+      />
+      <label>No</label>
+      <input
+        type="radio"
+        name="champion"
+        value="n"
+      />
+      <br />
+      <br />
+      Any comments about this team?
+      <br />
+      <textarea
+        placeholder="Feel free to write anything here"
+      ></textarea>
+    </form>
+  </body>
+</html>

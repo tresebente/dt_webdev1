@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.sidenav {
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+}
+
+.sidenav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 16px;
+}
+
+.sidenav a.links:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+#brand-name img {
+  width: 220px;
+  height: auto;
+}
+
+#brand-name2 {
+  background-image: url("../img/netflixlogo-transparent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  background-size: cover;
+  display: block;
+}
+
+.content {
+  margin-left: 220px;
+  padding-left: 20px;
+}

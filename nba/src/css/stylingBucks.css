@@ -1,0 +1,34 @@
+body {
+  background-color: #02471B;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 300;
+  color: #F0ECD3;
+}
+
+h1 {
+  color: #F0ECD3;
+  text-transform: uppercase;
+  font-family: 'Graduate', cursive;
+}
+
+h3 {
+  color: #F0ECD3;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+h4 {
+  color: #F0ECD3;
+  font-family: 'Chakra Petch', sans-serif;
+  font-style: italic;  
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+thead {
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+tbody {
+  text-align: center;
+}

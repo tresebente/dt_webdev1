@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sideNavbar {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 12px;
+}
+
+#logo {
+  height: 20%;
+  background-image: url("../img/spotifylogo.png");
+  background-position: center left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#links {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#links li {
+  padding: 10px 0px;
+}
+
+#links li a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#links li a.active {
+  color: white;
+}
+
+#links li a:hover {
+  color: white;
+}
+
+.links-icon {
+  margin-right: 10px;
+}
+
+#links li:nth-child(3) {
+  margin-bottom: 20px;
+}
+
+#content {
+  background-color: #121212;
+  color: white;
+  margin-left: 20%;
+}
+
+.topbar{
+  background-color: #121212;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#backButton{
+  color: #b3b3b3;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}

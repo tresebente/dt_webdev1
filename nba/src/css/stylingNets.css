@@ -1,0 +1,34 @@
+body {
+  font-family: 'Antonio', sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+  
+h1 {
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Graduate', cursive;
+}
+  
+h3 {
+  color: #000000;
+  font-family: 'Antonio', sans-serif;
+  font-weight: bold;
+}
+  
+h4 {
+  color: #000000;
+  font-family: 'Antonio', sans-serif;
+  font-weight: bold;
+  font-style: italic;  
+  text-transform: uppercase;
+}
+  
+thead {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+  
+tbody {
+  text-align: center;
+}

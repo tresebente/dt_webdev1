@@ -1,0 +1,37 @@
+body {
+  background-color: #224485;
+  font-family: 'Quantico', sans-serif;
+  font-weight: 300;
+  color: #F0ECD3;
+}
+  
+h1 {
+  color: #F48328;
+  text-transform: uppercase;
+  font-family: 'Graduate', cursive;
+}
+  
+h3 {
+  color: #F48328;
+  font-family: 'Quantico', sans-serif;
+  letter-spacing: 2px;
+}
+  
+h4 {
+  color: #F48328;
+  font-family: 'Quantico', sans-serif;
+  font-style: italic;
+  font-weight: bold;  
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+  
+thead {
+  font-style: italic;
+  font-weight: bold;
+  color: #F48328;
+}
+  
+tbody {
+  text-align: center;
+}
